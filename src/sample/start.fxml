@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button id="buttonStart" fx:id="buttonStart" contentDisplay="TOP" graphicTextGap="8.0" layoutX="259.0" layoutY="247.0" mnemonicParsing="false" onMouseClicked="#start" text="Start" textFill="#bf0707">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="logoImage" fitHeight="191.0" fitWidth="205.0" layoutX="217.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/akademia_kodu-1d64bd0e658a2d79a32b0c51ed58f4da.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
